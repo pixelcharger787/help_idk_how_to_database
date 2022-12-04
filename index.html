@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+    <!--Add your Firsebase Config here below. -->
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDCmgIQZ8vrhZYD9lI9HERQrj4FpYyJyx8",
+      authDomain: "bad-floating-device-simulation.firebaseapp.com",
+      projectId: "bad-floating-device-simulation",
+      storageBucket: "bad-floating-device-simulation.appspot.com",
+      messagingSenderId: "965430993450",
+      appId: "1:965430993450:web:d0724718f606b3d2e59953"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
